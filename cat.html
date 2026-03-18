@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Твій цифровий котик</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .cat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            border: 3px solid #ffb7c5;
+        }
+        .cat-icon {
+            font-size: 100px;
+            margin-bottom: 10px;
+        }
+        h1 { color: #ff69b4; }
+        p { color: #555; }
+        button {
+            background-color: #ffb7c5;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        button:hover { background-color: #8B00FF; }
+    </style>
+</head>
+<body>
+
+<div class="cat-card">
+    <div class="cat-icon">🐱</div>
+    <h1>Мур-мур!</h1>
+    <p>Я тут, щоб підтримати тебе під час навчання.</p>
+    <button onclick="meow()">Погладити котика</button>
+</div>
+
+<script>
+    function meow() {
+        alert("Мяу! Дякую, мені дуже приємно! 🐾");
+    }
+</script>
+
+</body>
+</html>
